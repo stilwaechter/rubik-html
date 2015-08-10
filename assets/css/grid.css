@@ -1,0 +1,119 @@
+.grid:after {
+    content: "\00a0";
+    clear: both;
+    display: block;
+    visibility: hidden;
+    height: 0;
+    font-size: 0;
+}
+
+.grid {
+    position: relative;
+    display: block;
+}
+
+.grid-flex {
+    position: relative;
+    display: flex;
+}
+
+.col-1-1, .col-2-2, .col-3-3, .col-4-4, .col-5-5, .col-6-6, .col-8-8 {
+    float: left;
+    width: 100%;
+}
+
+.col-5-1 {
+    float: left;
+    width: 20%;
+}
+
+.col-5-2 {
+    float: left;
+    width: 40%;
+}
+
+.col-5-3 {
+    float: left;
+    width: 60%;
+}
+
+.col-5-4 {
+    float: left;
+    width: 80%;
+}
+
+.col-6-1 {
+    float: left;
+    width: 16.6666%;
+}
+
+.col-6-2, .col-3-1 {
+    float: left;
+    width: 33.3333%;
+}
+
+.col-6-3 {
+    float: left;
+    width: 50%;
+}
+
+.col-6-4, .col-3-2 {
+    float: left;
+    width: 66.6666%;
+}
+
+.col-6-5 {
+    float: left;
+    width: 83.3333%;
+}
+
+.col-8-1 {
+    float: left;
+    width: 12.5%;
+}
+
+.col-8-2, .col-4-1 {
+    float: left;
+    width: 25%;
+}
+
+.col-8-3 {
+    float: left;
+    width: 37.5%;
+}
+
+.col-8-4, .col-4-2, .col-2-1 {
+    float: left;
+    width: 50%;
+}
+
+.col-8-5 {
+    float: left;
+    width: 62.5%;
+}
+
+.col-8-6, .col-4-3 {
+    float: left;
+    width: 75%;
+}
+
+.col-8-7 {
+    float: left;
+    width: 87.5%;
+}
+/* Custom settings */
+
+.grid {
+    margin: 0 -15px;
+}
+
+.col-1-1, .col-2-1, .col-2-2, .col-3-1, .col-3-2, .col-3-3, .col-4-1, .col-4-2, .col-4-3, .col-4-4, .col-5-1, .col-5-2, .col-5-3, .col-5-4, .col-5-5, .col-6-1, .col-6-2, .col-6-3, .col-6-4, .col-6-5, .col-6-6, .col-8-1, .col-8-2, .col-8-3, .col-8-4, .col-8-5, .col-8-6, .col-8-7, .col-8-8 {
+    padding: 0 15px 30px 15px;
+}
+
+@media screen and (max-width: 640px) {
+    .col-1-1, .col-2-1, .col-2-2, .col-3-1, .col-3-2, .col-3-3, .col-4-1, .col-4-2, .col-4-3, .col-4-4, .col-5-1, .col-5-2, .col-5-3, .col-5-4, .col-5-5, .col-6-1, .col-6-2, .col-6-3, .col-6-4, .col-6-5, .col-6-6, .col-8-1, .col-8-2, .col-8-3, .col-8-4, .col-8-5, .col-8-6, .col-8-7, .col-8-8 {
+        float: none;
+        width: 100%;
+    }
+}
