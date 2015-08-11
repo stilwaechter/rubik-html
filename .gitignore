@@ -1,0 +1,6 @@
+# Ignore OS X files
+.DS_Store
+
+# Ignore clamp files
+.clamp
+clamp.json
